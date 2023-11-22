@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    color: #222;
+}
+
+main {
+    padding: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.register,
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    max-width: 300px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid black;
+    
+}
+
+.input-box,
+.button{
+   align-self: center;
+   text-align: center;
+}
+
